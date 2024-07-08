@@ -1,6 +1,7 @@
 import appdirs as ad 
-ad.user_cache_dir = lambda *args: "/tmp"
+ad.user_cache_dir = lambda *args: ".cache"
 import yfinance as yf
+yf.set_tz_cache_location(".cache")
 import streamlit as st
 import pandas as pd
 
