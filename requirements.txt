@@ -1,0 +1,4 @@
+streamlit
+appdirs
+yfinance
+pandas
