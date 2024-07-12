@@ -14,7 +14,7 @@ Shown are the stock closing price and volume of Apple.
 
 # https://towardsdatascience.comhow-to-get-stock-data-using-python-c0de1df17e75
 # define the ticker symbol
-tickerSymbol = 'AAPL'
+tickerSymbol = 'GOOGL'
 #get data on this ticker
 tickerData = yf.Ticker(tickerSymbol)
 #get the historical prices for this ticker
